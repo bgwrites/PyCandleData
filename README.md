@@ -7,6 +7,8 @@ This is script scrapes candle data for FX pairs from Oanda servers.
 You will need to install <a href="https://github.com/hootnot/oanda-api-v20">oandapyV20</a>.
 If you do not know how to setup a python environment, I reccomend using Anaconda or learning how to use virtualenv. There are numerous tutorials online for this.
 
+Heads up, Oanda only allows a maximum of 4000 candles returned. If you require more, you will need to alter this script or run it multiple times with changes to the dates. 
+
 
 1. Create a demo account with <a href="https://oanda.com">Oanda</a> and obtain an api key.
 2. Place your api key in the script under "access_token".
